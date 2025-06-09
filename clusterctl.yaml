@@ -1,0 +1,4 @@
+## -- Controller settings -- ##
+PROXMOX_URL: <Proxmox URL>
+PROXMOX_TOKEN: <token>
+PROXMOX_SECRET: <secret>

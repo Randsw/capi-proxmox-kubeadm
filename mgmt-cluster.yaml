@@ -1,0 +1,21 @@
+PROXMOX_URL: <Proxmox url>
+PROXMOX_TOKEN: <token>
+PROXMOX_SECRET: <secret>
+FILE_STORAGE_FORMAT: "raw"
+CLUSTER_NAME: "mgmt"
+BOOT_VOLUME_DEVICE: "scsi0"
+BOOT_VOLUME_SIZE: "100"                                       # The size of the boot disk in GB.
+NUM_SOCKETS: "1"                                              # The number of sockets for the VMs.
+NUM_CORES: "4"                                                # The number of cores for the VMs.
+MEMORY_MIB: "4096"  
+BRIDGE: "vmbr0"
+CONTROL_PLANE_ENDPOINT_IP: "10.10.10.10"
+DNS_SERVERS: "[8.8.8.8,8.8.4.4]"
+GATEWAY: "10.10.10.234"
+IP_PREFIX: "24" 
+NODE_IP_RANGES: "[10.10.10.11-10.10.10.50]" 
+PROXMOX_SOURCENODE: "pve"
+TEMPLATE_VMID: "100"
+SSH_USER: "builder"
+VM_SSH_KEYS: "ssh public key"
+STORAGE_NODE: "local-lvm"

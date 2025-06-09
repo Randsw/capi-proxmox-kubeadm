@@ -1,0 +1,13 @@
+.vscode
+capi-kubeadm
+capi-kubeadm.pub
+packer/iso
+credential.*
+*.kubeconfig
+hints.*
+harbor
+k8s-template
+cluster.yaml
+workload-cluster.yaml
+*private*
+workload2-cluster-deploy.yaml
