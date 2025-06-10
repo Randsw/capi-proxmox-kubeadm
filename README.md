@@ -1,4 +1,4 @@
-# STEPS
+# Create management and workload kubernetes clusters in Proxmox VE using Cluster API and kubeadm
 
 ## Prerequisites
 
@@ -60,7 +60,7 @@ KUBECONFIG=workload-proxmox.kubeconfig kubectl get nodes
 
 By default clusterctl use [image-builder](https://image-builder.sigs.k8s.io/capi/providers/proxmox) [public key](https://raw.githubusercontent.com/kubernetes-sigs/image-builder/refs/heads/main/images/capi/cloudinit/id_rsa.capi.pub) as ssh authorized_keys.
 
-So private key to access VM is https://raw.githubusercontent.com/kubernetes-sigs/image-builder/refs/heads/main/images/capi/cloudinit/id_rsa.capi
+So private key to access VM is placed in same [repository](https://raw.githubusercontent.com/kubernetes-sigs/image-builder/refs/heads/main/images/capi/cloudinit/id_rsa.capi)
 
 To change edit this edit manifest in `KubeadmControlPlane` CR
 
